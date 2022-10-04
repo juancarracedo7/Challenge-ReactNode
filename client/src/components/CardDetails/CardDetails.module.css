@@ -1,0 +1,95 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    background-image: url('https://c.wallhere.com/photos/59/bb/landscape_forest_deer_artwork_pine_trees_illustration_mountains_minimalism-1189796.jpg!d');
+    background-size: cover;
+    height: 780px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    /* gap: %; */
+    flex: 1;
+
+}
+
+.card {
+    border: 2px solid;
+    background-color: rgb(11, 11, 11);
+    width: 150px;
+    color: rgb(247, 240, 240);
+    text-align: center;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 25px;
+ 
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 90px;
+    border: 2px solid ;
+    background-color: rgb(9, 10, 10);
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+}
+
+.goHome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px){
+    
+    .container {
+       display: flex;
+       flex-direction: column;
+       height: 3700px;
+    }
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+    .card {
+        border: 2px solid;
+        background-color: rgb(11, 11, 11);
+        width: 100%;
+        color: rgb(247, 240, 240);
+        text-align: center;
+        opacity: 0.7;
+        font-weight: bold;
+        font-size: 25px;
+     
+    }
+
+    .sideBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 90px;
+        border: 2px solid ;
+        background-color: rgb(9, 10, 10);
+        text-align: center;
+        opacity: 0.7;
+        color: white;
+        width: 100%;
+    }
+    
+}
