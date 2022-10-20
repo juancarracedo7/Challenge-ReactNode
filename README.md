@@ -1,4 +1,4 @@
-# Challenge-ReactNode-Between
+# Challenge-ReactNode
 Challenge realizado para Between, Weather Forecast Application
 
 JUAN CRUZ CARRACEDO
